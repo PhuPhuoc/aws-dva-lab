@@ -1,0 +1,6 @@
+terraform graph \
+| dot -Tsvg \
+-Grankdir=LR \
+-Goverlap=false \
+-Gsplines=true \
+-o graph.svg
